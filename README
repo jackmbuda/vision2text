@@ -1,0 +1,30 @@
+Python3 required to run script.
+
+tesseract and pytesseract also required
+https://github.com/tesseract-ocr/tesseract#installing-tesseract
+brew install tesseract
+https://pypi.org/project/pytesseract/
+pip install pytesseract
+
+Place all images to be scanned into a new directory inside repo.
+mkdir photos
+Example execution with output:
+~/workspace/vision2text via 🐍 v2.7.18 
+❯ python3 scanner.py photos
+Directory being scanned: photos
+Image file being scanned: intel_i5.png
+CORE™ i§
+
+10600T
+
+RH39 2.48GHZ
+
+905 (e)
+
+
+Image file being scanned: intel_xeon.png
+INTEL(R) XEON(R)
+£3-1245V5
+SR2LL 3.50GHZ
+
+X720B795
